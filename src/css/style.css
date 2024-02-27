@@ -1,0 +1,59 @@
+body{
+    background-color: #57c7c7;
+    font-family: Kumbh Sans;
+    font-weight: 400;
+    font-size: 18px;
+    height: 100vh;
+    }
+    
+.container {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin: 20px;
+    width: 330px;
+    height: 350px;
+}
+
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    justify-content: space-around;
+
+}
+
+
+.profile-image{
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+
+
+
+
